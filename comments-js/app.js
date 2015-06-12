@@ -7,6 +7,7 @@ var main = function() {
 		var $comment_text = $(".page-main__comments-input").val();
 		$new_comment.text($comment_text);
 		$(".page-main__comments-block").append($new_comment);
+		$(".page-main__comments-input").val("");
 	};
 		
 	});
