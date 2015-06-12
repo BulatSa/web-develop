@@ -1,6 +1,68 @@
-.comments p:nth-child(even) {
+.page-header {
+	width: 960px;
+	margin: 0 auto;
+	border-bottom: 2px solid #000;
+}
+
+.page-header__title {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.page-header__descript {
+	display: inline-block;
+	font-size: 18px;
+	color: #aaa;
+}
+
+.page-main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.page-main:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.page-main__comments-init {
+	width: 360px;
+	float: left;
+}
+
+.page-main__comments-title {
+	font-size: 18px;
+}
+
+.page-main__comments-input {
+	padding: 5px 0px 5px 2px;
+}
+
+.page-main__comments-input-button {
+	padding: 5px 15px;
+}
+
+.page-main__comments-block {
+	width: 600px;
+	float: right;
+}
+
+.page-main__comments-text {
+	padding: 5px 10px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	font-size: 18px;
+}
+
+.page-main__comments-block .page-main__comments-text:nth-child(even) {
 	background: lavender;
 }
-.comments p:nth-child(odd) {
+.page-main__comments-block .page-main__comments-text:nth-child(odd) {
 	background: gainsboro;
+}
+
+.page-footer {
+	width: 960px;
+	margin: 0 auto;
 }
