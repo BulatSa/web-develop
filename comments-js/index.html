@@ -6,20 +6,25 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header></header>
-	<main>
-		<section class="comments-init">
-			<p>Добавьте ваш комментарий:</p>
-			<input type="text">
-			<button>+</button>
-		</section>
-		<section class="comments">
-			<p>Это первый коммент!</p>
-			<p>Это второй!</p>
-			<p>Это третий!</p>
-		</section>
-	</main>
-	<footer></footer>
+	<header class="page-header">
+		<h1 class="page-header__title">Комментарии</h1>	
+		<h2 class="page-header__descript">Простое приложение, позволяющее писать комментарии</h2>
+	</header><!-- page-header -->
+	<main class="page-main">
+		<section class="page-main__comments-init">
+			<p class="page-main__comments-title">Добавьте ваш комментарий:</p>
+			<input class="page-main__comments-input" type="text">
+			<button class="page-main__comments-input-button">+</button>
+		</section><!-- page-main__comments-init -->
+		<section class="page-main__comments-block">
+			<p class="page-main__comments-text">Это первый коммент!</p>
+			<p class="page-main__comments-text">Это второй!</p>
+			<p class="page-main__comments-text">Это третий!</p>
+		</section><!-- page-main__comments-block -->
+	</main><!-- page-main -->
+	<footer class="page-footer">
+		<p class="page-footer__description">Работа размещена для некомерческой лицензии</p>
+	</footer>
 	<script src="app.js"></script>
 </body>
 </html>
