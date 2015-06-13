@@ -6,8 +6,10 @@ var main = function() {
 		
 		if ($(".page-main__comments-input").val() !== "") {
 			var $comment_text = $(".page-main__comments-input").val();
+			$new_comment.hide();
 			$new_comment.text($comment_text);
 			$(".page-main__comments-block").append($new_comment);
+			$new_comment.fadeIn();
 			$(".page-main__comments-input").val("");
 		};
 		
@@ -19,8 +21,10 @@ var main = function() {
 		if (event.keyCode === 13) {
 			if ($(".page-main__comments-input").val() !== "") {
 				var $comment_text = $(".page-main__comments-input").val();
+				$new_comment.hide();
 				$new_comment.text($comment_text);
 				$(".page-main__comments-block").append($new_comment);
+				$new_comment.fadeIn();
 				$(".page-main__comments-input").val("");
 			};
 		};
