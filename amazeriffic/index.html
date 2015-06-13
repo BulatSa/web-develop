@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Amazeriffic</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="page-header">
+		<h1 class="page-header__title">Amazeriffic</h1>
+		<h2 class="page-header__descript">Простое приложение, позволяющее вести список дел</h2>
+	</header><!-- page-header -->
+
+	<main class="page-main">
+		<section class="page-main__wrapper">
+			<div class="page-main__deal-headers">
+				<a href="#" class="deal-head">Новые</a>
+				<a href="#" class="deal-head">Старые</a>
+				<a href="#" class="deal-head">Добавить</a>
+			</div><!-- page-main__deal-headers -->
+			<div class="page-main__deal-list-wrapper">
+				<ul class="deal-list deal-list__new">
+					<li>Помыть посуду</li>
+					<li>Убрать мусор</li>
+					<li>Полить цветы</li>
+					<li>Купить продукты</li>
+				</ul><!-- deal-list__new -->
+				<ul class="deal-list deal-list__old">
+					<li>Помыть посуду</li>
+					<li>Убрать мусор</li>
+					<li>Полить цветы</li>
+					<li>Купить продукты</li>
+				</ul><!-- deal-list__old -->
+				<div class="deal-list__add-deal">
+					<input class="deal-list__add-deal-input" type="text">
+					<button class="deal-list__add-deal-button">+</button>
+				</div><!-- deal-list__add-deal -->
+			</div><!-- page-main__deal-list-wrapper -->
+		</section><!-- page-main__wrapper -->
+	</main><!-- page-main -->
+
+	<footer class="page-footer">
+		<p class="page-footer__descript">Работа размещена для некомерческой лицензии</p>
+	</footer><!-- page-footer -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
